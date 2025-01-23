@@ -6,9 +6,9 @@ import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import {ERC721URIStorage} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
-contract KOUPISSFOUFISS is ERC721, ERC721URIStorage, Ownable {
+contract KOUPISS42 is ERC721, ERC721URIStorage, Ownable {
     constructor(address initialOwner)
-        ERC721("KOUPISS FOUFISS", "KPS")
+        ERC721("KOUPISS42", "KPS")
         Ownable(initialOwner)
     {}
 
